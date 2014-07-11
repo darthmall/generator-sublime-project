@@ -1,0 +1,23 @@
+{
+  "folders":
+  [
+    {
+      "path": "<%= destinationRoot() %>",
+      "file_exclude_patterns": [
+        "*.sublime-*",
+        ".gitignore",
+        ".jshintrc",
+        ".editorconfig",
+        "*.zip",
+        "*.tar.*"
+      ],
+      "folder_exclude_patterns": [
+        "node_modules",
+        "bower_components",
+        "tmp",
+        ".tmp",
+        "dist"
+      ]
+    }
+  ]
+}
