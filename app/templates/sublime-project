@@ -5,7 +5,8 @@
       "path": "<%= destinationRoot() %>",
       "file_exclude_patterns": [
         "*.sublime-*",
-        ".gitignore",
+        ".git*",
+	".bowerrc",
         ".jshintrc",
         ".editorconfig",
         "*.zip",
